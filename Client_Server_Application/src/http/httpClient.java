@@ -104,6 +104,7 @@ public class httpClient {
                     else {
                         System.out.println("A file with the same name already exists in the current directory.");
                         System.out.println("Double check the name of the file you want to copy.");
+                        break;
                     }
                 }
             }
